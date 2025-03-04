@@ -5,7 +5,7 @@ Welcome to my **Personal Portfolio**! This project is a showcase of my skills, p
 ---
 
 ## **Live Demo**
-Check out the live version of the portfolio here:  
+Check out the live version of the portfolio here:  https://faraz-irshad.github.io/Portfolio-Website/
 
 ---
 
