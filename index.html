@@ -17,21 +17,22 @@
                 <div class="profile-info">
                     <img src="assets/avatar.jpg" alt="Faraz Irshad Profile Picture">
                     <h2>Faraz Irshad</h2>
+                    <p class="role">Computer Science Student</p>
                 </div>
                 <ul class="contact-list">
                     <li>
                         <span class="contact-tag">EMAIL</span>
-                        <div class="contact-item">
+                        <a href="mailto:farazirshad000@gmail.com" class="contact-item">
                             <i class="fas fa-envelope icon"></i>
                             <span class="contact-detail">farazirshad000@gmail.com</span>
-                        </div>
+                        </a>
                     </li>
                     <li>
                         <span class="contact-tag">PHONE</span>
-                        <div class="contact-item">
+                        <a href="tel:+36203523769" class="contact-item">
                             <i class="fas fa-phone icon"></i>
                             <span class="contact-detail">+36 203 523 769</span>
-                        </div>
+                        </a>
                     </li>
                     <li>
                         <span class="contact-tag">BIRTHDAY</span>
@@ -79,8 +80,11 @@
                     <!-- About Tab -->
                     <div class="tab-panel active" id="about">
                         <div class="section-header">
-                            <h1>About Me</h1>
-                            <div class="section-line"></div>
+                            <i class="fas fa-user-circle section-icon"></i>
+                            <div>
+                                <h1>About Me</h1>
+                                <div class="section-line"></div>
+                            </div>
                         </div>
                         <p class="intro-text">
                             I'm a Computer Science student in Budapest, passionate about creating innovative solutions through code. I specialize in problem-solving, algorithm optimization, and building robust applications.
@@ -88,55 +92,109 @@
                         <p>
                             My journey spans from implementing complex data structures to developing full-stack applications. I thrive on challenges and enjoy the process of turning ideas into functional, elegant software solutions.
                         </p>
+                        
+                        <div class="skills-summary">
+                            <h3><i class="fas fa-code"></i> Core Technologies</h3>
+                            <div class="tech-tags">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Godot</span>
+                                <span class="tech-tag">Git</span>
+                            </div>
+                        </div>
+
                         <div class="education-section">
-                            <h3>Education</h3>
-                            <ul>
-                                <li>
-                                    <h4>Eötvös Loránd University</h4>
-                                    <p class="description">BSc Computer Science</p>
-                                    <p class="date">2023 - Present</p>
-                                </li>
-                            </ul>
+                            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                            <div class="education-card">
+                                <h4>Eötvös Loránd University</h4>
+                                <p class="description">BSc Computer Science</p>
+                                <p class="date">2023 - Present</p>
+                            </div>
+                        </div>
+
+                        <div class="highlight-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2023</span>
+                                <span class="stat-label">Started CS</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">∞</span>
+                                <span class="stat-label">Learning</span>
+                            </div>
                         </div>
                     </div>
-
-
 
                     <!-- Projects Tab -->
                     <div class="tab-panel" id="projects">
                         <div class="section-header">
-                            <h1>Featured Projects</h1>
-                            <div class="section-line"></div>
+                            <i class="fas fa-rocket section-icon"></i>
+                            <div>
+                                <h1>Featured Projects</h1>
+                                <div class="section-line"></div>
+                            </div>
                         </div>
                         <div class="projects-carousel">
                             <div class="project-card">
-                                <h3 class="project-title">Railways Puzzle</h3>
+                                <div class="project-header">
+                                    <h3 class="project-title">Railways Puzzle</h3>
+                                    <span class="project-date">2024</span>
+                                </div>
+                                <div class="project-tech">
+                                    <span class="tech-badge">JavaScript</span>
+                                    <span class="tech-badge">HTML5</span>
+                                    <span class="tech-badge">CSS3</span>
+                                </div>
                                 <p class="project-description">An interactive puzzle game built with JavaScript featuring engaging gameplay mechanics and intuitive controls.</p>
-                                <a href="https://github.com/faraz-irshad/Railways-Puzzle" class="project-link" target="_blank" rel="noopener noreferrer">
-                                    <i class="fab fa-github"></i>
-                                    GitHub
-                                </a>
+                                <div class="project-links">
+                                    <a href="https://github.com/faraz-irshad/Railways-Puzzle" class="project-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-github"></i>
+                                        GitHub
+                                    </a>
+                                </div>
                             </div>
                             <div class="project-card">
-                                <h3 class="project-title">IKarRental</h3>
+                                <div class="project-header">
+                                    <h3 class="project-title">IKarRental</h3>
+                                    <span class="project-date">2024</span>
+                                </div>
+                                <div class="project-tech">
+                                    <span class="tech-badge">Web Dev</span>
+                                    <span class="tech-badge">Database</span>
+                                    <span class="tech-badge">Admin Panel</span>
+                                </div>
                                 <p class="project-description">A comprehensive car rental platform with user registration, booking system, and admin dashboard.</p>
-                                <a href="https://github.com/faraz-irshad/IKarRental" class="project-link" target="_blank" rel="noopener noreferrer">
-                                    <i class="fab fa-github"></i>
-                                    GitHub
-                                </a>
+                                <div class="project-links">
+                                    <a href="https://github.com/faraz-irshad/IKarRental" class="project-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-github"></i>
+                                        GitHub
+                                    </a>
+                                </div>
                             </div>
                             <div class="project-card">
-                                <h3 class="project-title">Personal Portfolio</h3>
+                                <div class="project-header">
+                                    <h3 class="project-title">Personal Portfolio</h3>
+                                    <span class="project-date">2024</span>
+                                </div>
+                                <div class="project-tech">
+                                    <span class="tech-badge">HTML/CSS</span>
+                                    <span class="tech-badge">JavaScript</span>
+                                    <span class="tech-badge">Responsive</span>
+                                </div>
                                 <p class="project-description">A responsive and modern portfolio website showcasing projects, skills, and experience.</p>
-                                <a href="https://github.com/faraz-irshad/Personal-Portfolio" class="project-link" target="_blank" rel="noopener noreferrer">
-                                    <i class="fab fa-github"></i>
-                                    GitHub
-                                </a>
+                                <div class="project-links">
+                                    <a href="https://github.com/faraz-irshad/Personal-Portfolio" class="project-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-github"></i>
+                                        GitHub
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </main>
         </div>
