@@ -12,96 +12,82 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="wrapper">
-            <section id="home">
-                <div class="main-container">
-                    <aside class="profile-sidebar">
-                        <div class="profile-info">
-                            <img src="assets/avatar.jpg" alt="Faraz Irshad Profile Picture">
-                            <h2>Faraz Irshad</h2>
-                        </div>
-                        <ul class="contact-list">
-                            <li>
-                                <span class="contact-tag">EMAIL</span>
-                                <div class="contact-item">
-                                    <i class="fas fa-envelope icon"></i>
-                                    <span class="contact-detail">farazirshad000@gmail.com</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="contact-tag">PHONE</span>
-                                <div class="contact-item">
-                                    <i class="fas fa-phone icon"></i>
-                                    <span class="contact-detail">+36 203 523 769</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="contact-tag">BIRTHDAY</span>
-                                <div class="contact-item">
-                                    <i class="fas fa-birthday-cake icon"></i>
-                                    <span class="contact-detail">January 23, 2005</span>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="contact-tag">LOCATION</span>
-                                <div class="contact-item">
-                                    <i class="fas fa-map-marker-alt icon"></i>
-                                    <span class="contact-detail">Budapest, Hungary</span>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="social-links">
-                            <a href="https://www.linkedin.com/in/farazirshad/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
-                                <i class="fab fa-linkedin icon"></i>
-                            </a>
-                            <a href="https://github.com/faraz-irshad" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
-                                <i class="fab fa-github icon"></i>
-                            </a>
-                            <a href="https://www.instagram.com/_fara.z/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
-                                <i class="fab fa-instagram icon"></i>
-                            </a>
-                            <a href="https://www.facebook.com/profile.php?id=61557985022556" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">
-                                <i class="fab fa-facebook icon"></i>
-                            </a>
-                        </div>
-                    </aside>
-                    <main class="main-content">
-                        <div class="about-section">
-                            <div class="section-header">
-                                <h1>About Me</h1>
-                                <div class="section-line"></div>
-                            </div>
-                            <p class="intro-text">
-                                I'm a Computer Science student in Budapest, passionate about creating innovative solutions through code. I specialize in problem-solving, algorithm optimization, and building robust applications.
-                            </p>
-                            <p>
-                                My journey spans from implementing complex data structures to developing full-stack applications. I thrive on challenges and enjoy the process of turning ideas into functional, elegant software solutions.
-                            </p>
-                            <div class="highlight-stats">
-                                <div class="stat-item">
-                                    <span class="stat-number">3+</span>
-                                    <span class="stat-label">Projects</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="stat-number">2023</span>
-                                    <span class="stat-label">Started CS</span>
-                                </div>
-                                <div class="stat-item">
-                                    <span class="stat-number">∞</span>
-                                    <span class="stat-label">Learning</span>
-                                </div>
-                            </div>
-                        </div>
-                    </main>
+        <div class="main-container">
+            <aside class="profile-sidebar">
+                <div class="profile-info">
+                    <img src="assets/avatar.jpg" alt="Faraz Irshad Profile Picture">
+                    <h2>Faraz Irshad</h2>
                 </div>
-            </section>
-            <section id="resume">
-                <div class="resume-container">
-                    <div class="resume-content">
+                <ul class="contact-list">
+                    <li>
+                        <span class="contact-tag">EMAIL</span>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope icon"></i>
+                            <span class="contact-detail">farazirshad000@gmail.com</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="contact-tag">PHONE</span>
+                        <div class="contact-item">
+                            <i class="fas fa-phone icon"></i>
+                            <span class="contact-detail">+36 203 523 769</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="contact-tag">BIRTHDAY</span>
+                        <div class="contact-item">
+                            <i class="fas fa-birthday-cake icon"></i>
+                            <span class="contact-detail">January 23, 2005</span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="contact-tag">LOCATION</span>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt icon"></i>
+                            <span class="contact-detail">Budapest, Hungary</span>
+                        </div>
+                    </li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/farazirshad/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                        <i class="fab fa-linkedin icon"></i>
+                    </a>
+                    <a href="https://github.com/faraz-irshad" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                        <i class="fab fa-github icon"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_fara.z/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
+                        <i class="fab fa-instagram icon"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61557985022556" target="_blank" rel="noopener noreferrer" aria-label="Facebook Profile">
+                        <i class="fab fa-facebook icon"></i>
+                    </a>
+                </div>
+            </aside>
+            <main class="main-content">
+                <nav class="tab-navigation">
+                    <button class="tab-btn active" data-tab="about">
+                        <i class="fas fa-user"></i>
+                        About
+                    </button>
+                    <button class="tab-btn" data-tab="projects">
+                        <i class="fas fa-folder-open"></i>
+                        Projects
+                    </button>
+                </nav>
+
+                <div class="tab-content">
+                    <!-- About Tab -->
+                    <div class="tab-panel active" id="about">
                         <div class="section-header">
-                            <h2>Skills & Education</h2>
+                            <h1>About Me</h1>
                             <div class="section-line"></div>
                         </div>
+                        <p class="intro-text">
+                            I'm a Computer Science student in Budapest, passionate about creating innovative solutions through code. I specialize in problem-solving, algorithm optimization, and building robust applications.
+                        </p>
+                        <p>
+                            My journey spans from implementing complex data structures to developing full-stack applications. I thrive on challenges and enjoy the process of turning ideas into functional, elegant software solutions.
+                        </p>
                         <div class="education-section">
                             <h3>Education</h3>
                             <ul>
@@ -112,103 +98,47 @@
                                 </li>
                             </ul>
                         </div>
-                        <h3 class="skills-header">Technical Skills</h3>
-                        <div class="skills-grid">
-                            <div class="skills-list">
-                                <ul>
-                                    <li>
-                                        <span class="skill-name">Web Development</span>
-                                        <div class="skill-bar">
-                                            <div class="skill-level" style="width: 75%;"></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <span class="skill-name">Godot Engine</span>
-                                        <div class="skill-bar">
-                                            <div class="skill-level" style="width: 85%;"></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <span class="skill-name">Flutter Development</span>
-                                        <div class="skill-bar">
-                                            <div class="skill-level" style="width: 70%;"></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <span class="skill-name">Version Control (Git)</span>
-                                        <div class="skill-bar">
-                                            <div class="skill-level" style="width: 80%;"></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <span class="skill-name">JavaScript</span>
-                                        <div class="skill-bar">
-                                            <div class="skill-level" style="width: 75%;"></div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <span class="skill-name">Problem Solving</span>
-                                        <div class="skill-bar">
-                                            <div class="skill-level" style="width: 90%;"></div>
-                                        </div>
-                                    </li>
-                                </ul>
+                    </div>
+
+
+
+                    <!-- Projects Tab -->
+                    <div class="tab-panel" id="projects">
+                        <div class="section-header">
+                            <h1>Featured Projects</h1>
+                            <div class="section-line"></div>
+                        </div>
+                        <div class="projects-carousel">
+                            <div class="project-card">
+                                <h3 class="project-title">Railways Puzzle</h3>
+                                <p class="project-description">An interactive puzzle game built with JavaScript featuring engaging gameplay mechanics and intuitive controls.</p>
+                                <a href="https://github.com/faraz-irshad/Railways-Puzzle" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                            <div class="project-card">
+                                <h3 class="project-title">IKarRental</h3>
+                                <p class="project-description">A comprehensive car rental platform with user registration, booking system, and admin dashboard.</p>
+                                <a href="https://github.com/faraz-irshad/IKarRental" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                            </div>
+                            <div class="project-card">
+                                <h3 class="project-title">Personal Portfolio</h3>
+                                <p class="project-description">A responsive and modern portfolio website showcasing projects, skills, and experience.</p>
+                                <a href="https://github.com/faraz-irshad/Personal-Portfolio" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
-            </section>
-            <section id="projects">
-                <div class="projects-container">
-                    <div class="section-header">
-                        <h2>Featured Projects</h2>
-                        <div class="section-line"></div>
-                    </div>
-                    <div class="projects-carousel">
-                        <div class="project-card">
-                            <img src="assets/railways.png" alt="Railways Puzzle Game Screenshot" class="project-image">
-                            <h3 class="project-title">Railways Puzzle</h3>
-                            <p class="project-description">An interactive puzzle game built with JavaScript featuring engaging gameplay mechanics and intuitive controls. Test your problem-solving skills with challenging railway track layouts.</p>
-                            <a href="https://github.com/faraz-irshad/Railways-Puzzle" class="project-link" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-github"></i>
-                                View on GitHub
-                            </a>
-                        </div>
-                        <div class="project-card">
-                            <img src="assets/rental.png" alt="IKarRental Website Screenshot" class="project-image">
-                            <h3 class="project-title">IKarRental</h3>
-                            <p class="project-description">A comprehensive car rental platform with user registration, booking system, admin dashboard, and payment integration. Built with modern web technologies for optimal user experience.</p>
-                            <a href="https://github.com/faraz-irshad/IKarRental" class="project-link" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-github"></i>
-                                View on GitHub
-                            </a>
-                        </div>
-                        <div class="project-card">
-                            <img src="assets/portfolio.png" alt="Personal Portfolio Screenshot" class="project-image">
-                            <h3 class="project-title">Personal Portfolio</h3>
-                            <p class="project-description">A responsive and modern portfolio website showcasing my projects, skills, and experience. Features smooth animations, dark theme, and mobile-first design approach.</p>
-                            <a href="https://github.com/faraz-irshad/Personal-Portfolio" class="project-link" target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-github"></i>
-                                View on GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="quote">
-                <div class="quote-wrapper">
-                    <div class="section-header">
-                        <h2>Daily Inspiration</h2>
-                        <div class="section-line"></div>
-                    </div>
-                    <div class="quote-container">
-                        <blockquote class="quote-text">
-                            "The only limit to our realization of tomorrow is our doubts of today."
-                        </blockquote>
-                        <p class="quote-author">- Franklin D. Roosevelt</p>
-                    </div>
-                </div>
-            </section>
+            </main>
         </div>
         <script src="script.js"></script>
     </body>
